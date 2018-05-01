@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<title>Win-IT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+    <style>
+        .set1{
+            display: inline-block;
+            margin: 10px;
+       align-items: center;}
+    </style></head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Our Main Page</a>
+  <a href="#" class="w3-bar-item w3-button">School</a>
+  <a href="trial.html " target="_blank" class="w3-bar-item w3-button">College</a>
+  <a href="STARTUPNEW.html" target="_blank" class="w3-bar-item w3-button">Start-ups</a>
+  
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Motive</a>
+     <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Initiate</a>
+  
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+   
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="https://stylewhack.com/wp-content/uploads/2016/08/yourstory-woman-empowerment-1.jpg" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <center><button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">WIN-IT</button></center>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>We welcome you to build your future here!
+      <h5><i class="fa fa-smile-o"></i><i class="fa fa-smile-o"></i><i class="fa fa-smile-o"></i></h5></h4>
+    </header>
+    
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Meet the team</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <a  href="https://www.facebook.com/samriddhi.srivastava.18" target="_blank"><img src="sam.jpg" alt="samriddhi" style="width:45%" class="w3-circle w3-hover-opacity"></a>
+  <h3>Samriddhi Srivastava</h3>
+  
+</div>
+
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/arushi.shah.908" target="_blank"><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/28951752_2034112566629300_2993422846161584128_n.jpg?oh=8b256c3259ce0028a1d74cd042f52c52&oe=5B32C51E" alt="aru" style="width:45%" class="w3-circle w3-hover-opacity" ></a>
+  <h3>Arushi Shah</h3>
+  
+</div>
+
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/varsha.agarwal.3511" target="_blank"><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/26166778_1318150364956323_3667852905041593489_n.jpg?oh=22f598641cc90883be73b5271c237851&oe=5B3E94FD" alt="varsha" style="width:45%" class="w3-circle w3-hover-opacity" ></a>
+  <h3>Varsha Agarwal</h3>
+  
+</div>
+
+<div class="w3-quarter">
+  <a href="https://www.facebook.com/VinnovateIT/" target="_blank"><img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/11168470_1038353852850996_5300263353335599052_n.png?oh=a514a4d56be4b9d531a2fb3d86ebca3b&oe=5B4C85EE" alt="vinnovateit" style="width:45%" class="w3-circle w3-hover-opacity" ></a>
+  <h3>VinnovateIT</h3>
+  
+</div>
+
+
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Motive</h2>
+<p>WIN-IT is a global fellowship programme raised for the empowerment of women in economical field.<br>
+
+Women in different ages desire to become independent and want to do something on their own. Just to motivate them and help them to move forward with this, WIN-IT has come up with different ideas and internship programmes for different age groups including students, college going students and the ones who have crossed all these  stages of their life.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhMWFhUXGBgXGBgVGBoYGBgaGhgdGBcaHRsaHSggGBolHRUaITEhJSkrLi4uGh8zODMtNygtLisBCgoKDg0OGhAQGislHSUtLS4rLS0tLSstLy03LTctLS0tLS0tLS0rLS0tKystKystLS0rLS0tLS0tLSstLS0rLf/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAQIEBQYAB//EAEUQAAEDAgMFBQUGAwcCBwEAAAEAAhEDIQQSMQUGQVFhE3GBkaEiMrHB8AcUQtHh8VJishUjJDRygqJjkiUzQ1ST0uIW/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QALhEAAgIBBAECBgEDBQAAAAAAAAECAxEEEiExQRNRBRQiI2Fx0TKRoRVScoHh/9oADAMBAAIRAxEAPwDfZeevekAU1uFH6pXU46rlNSE1p4IrGnkpIckcUACdI/ZDa4z+yI5yRnQIAYDHH1CEQPooztYj68kopTxg+KQ8ggB1KeByRW04/F6JH05FjdAAySlMTb5cVxaYMlOIBQBzKnRPBQgIKkBAhjwhuaIujuEhCay5QA9p707MkyxwSk9ECEdV5fFNfWgTqTYDmeACUgQSTYKNhAXEvcI4MEXDYuY4SmxhqNAARpz6niUrmHlKLA5ILqhTEKaR5ojKZH7hMKVoSAdP1IXAc0nZ9U8UhxKAOLh9BNNRcabUhDeSAHiqnFwQ46eSUJ5EcWJBSKeGlFDigBgbCaPFEzFIXlAAyLpkQT4a9bfJHDuiFW+II+vJIYRsLiO9NBj4ru35hPIg0fRKQtHRDJI+ihPrQq2hkOSOKFVcOaASTpI8ITciNoZCtcClpm90IU+9PYPaRhAFqNBiCfrwTKr4/dPeBr8UKo63VTLA0K4HjHqV3dohM0j9F1MEWUjHkpriuhK8WTYDA48VIGmq8s2q6q7EPZmc49oQACdZgQOCk19nY2i01SXgCCSKkkcBMHquL5vl/S+D1v8ATFhZsSb6PSg5EE2m0qg3S2ucRTId/wCYyATHvA6O77FZPfKq/wC91AXGAGwAYAGUfOVrPUKNaml2c9OhlO51SeGj0lzgCkc8XAInvH7ry9u7+LcAexeQRNyOPQmVY7t7ExFPE03OpOa0TmJiIgiOqyjqptpbGbT+H1Ri36qyv1/JuKoktB0v3EwnZ7BK8gZibNbe3EgSfILybG4x9Vxc9znSSRJJi8gDktb71Vjgw0eiepb5wketA8/JNDRwCibv4s1cPSedcsOjmDlPqEu3McKFJ9SJIEAcMxMCfErVTW3d4OZ1S9T0/OcEop7GrzLCbPxOMLnD2o1LjDZ5DgD0R9j7VrYKrkdmDQ726Z07xyN5suVavnmPHuejL4Xw1Gacl4PSKdMwMwE9Jj1R2s6LFfaNiHf3IBIHtGxgHSCtHuzUccJRJMnILm55LeNqlY4Y6OOemcKI2t9+CyLDyS5VgsJiHnapD3Gz3tAkxGU5QAt6CfoqqrN+fw8EajTulx5zlZGEdVwjmU8jokhanOCLwnNf3riF2T6lADhPNOAKWAmlo5pgJUcVHqPM931KI9ltShNsdf2UjHuNienwk/NAfjMpy8k59zJcYAuOBuT8vVVL6uYk3MngFLeCorJdCrPVc9oUNzk+mDzXQZhgOqY+pwk+qVov+SIKInX0UtjIuY8FIoayfgntaBy9E98cAobHgeXSoj3Gf1UimP4j6eSYynJsobKQHKlFMdEYtA10RRUp/X7oAhkp4iNUWpl5deCE8tMDylUIweGaBtMg/wAbo78hIWxx96VWBJNN4iJn2SsBt6qaeMqOabteCCO4J+O3orVWZPZaDZxZIJ9bLzYXxr3xfuz37tHZc6px6wi5+zg3rDow/wBSr9+BGMn+Vh+P5LQ7kYE0qGcj2qsO/wBv4fjPiqDf/wDzTT/02/1ORNOOmWRUzU9fLHs0ej0qNgT0XPaAPaPTnPQcyvOW78YmIIpk88pHzWp3T2o/E03PqAZmuyjKLRANvNdVephN7UedqNDbTFzljBYbTblw1SRfs3WidQeA1XkAC9W3pqubhqhDspjXlcT6GFld3d1218M+q6Q4kinBsMvMcZNlz6uDsmox9ju+G3QpplOfWUix+zzEg0nsJsx0+Dhy7wVN3xYHYN5NiMpuYvmFupuVnNwK2XEmmbZmkf7m3/NazfCiHYSoCQPdIJnUOBGgOunirqe7Tv8ATMdRDZrk/dplfuG+cNA4PdPofgVbYvYVGs8PqMDnCL3ExoDe4VR9njP7mrHCpzB/AOK1ZnktaUpVRyjm1kpQ1M3F45MH9o7YfRH8rviFqN02Tg6PD2eIvqb9xWc+0pl6BP8AOPgqrZ2+OIo020xkIaIBcDMcBY8FzerGq+Tkd/y879HBQ7X/AKFw9LtNpOJdBFe1rmCf/rHivSD3ry/dfFE42m9xBc95nnLgb+sR1Xpzmn6utdG8qT/Jz/FIuM4RfhCOqBML50CI6lPEJmQrsPLGEQnsZzXEFK0lAhxaEhASw5KKbjyCYEcg8kRggafupJpDio1XEMbIkA8OJsZFteCXQyHj35WOi5j4rJPruaYBMDqtfUBrS3JAGp4dw4nXoo7t36PEv/7llN5ZtDKQ1wI4eiXM7QW+u5Hqg8G+hQadJ8zEDuXWYBqbD49YUug4AGY71DIJ4FIKZHAqWsgTc4PGe79krTwugU2GeR6JzsYJ9iH8z+EHv4+CzlFR7ZSbfRKYzoomLxLWC5i8RqSeQ5lCrVTq+oe5pLR5NvHeSqrFYum0kgAHnx8ysJWRRsqpeSzNOpVvPZg8Bd3SSQY8PNRq+zQOp5m58SVSDectOtuiSpvOHWlZueTRRSJLmEaSO4kItCq/n53+Mqfs9jXtmRcfFJXwmQggWRyPajz7a5JxjswmXtkeVldb6Vqb2Ne1ha5pg+yG2PDXnCqttH/GOIEe2w+jVrt4cM00qjSPwkjoQJHquWC3KaPVuk4Spkn4Iu6e2W/d2tdmlktkCbfh9DHgqffis19ZjmEEdnE9Q468jdC3RYHPdS4kZm8JjX0v4KJvRSNOu0xIi44mDzVSlvpwZwh6Osbx7npWz9gYdlNo7JjvZEktkkxcmRzVhTw9OmIptDRezQBfjYKi2ZvfhnwC80zH47Dz0VzS2vh3PFNtdhefw5hJ6ALui4JLGDyZuyTecsr95sG5+GqjjYgNEmxmIJE2+ig7v4qhTw1On2rAWt9oOIDgZJdbhefRT9sU6jnUxTMgPDniSJbBBuIgTfXVU2P3Lo1Kj35i3MPdEnK4mcxJN5/hUT3Ke6K56NqpVuvZZLC74/sY2hjmtx3as9ztiR/pc6/hBW831aRg6thEsF+r2hYLePYbsK5rS4ODmyCARpY2J1081ttvVjX2XnEkmnTcf9rml3wK5KsqNkX2enqlCU6bIvKylkjfZw09hU5dprz9lsrXEFYfcDa1KnSqU6lRrDnzDMQ2QWgGJ6hRNq77Vu1cKBb2YMNkSXRx8ei3qvhXVHJy6jR23ame1f3J32mG1DnL/gFd7ubNojC0ppsOZjS4loJJcJMnxVF9oWIllAObDnNcSNS0+yeU62Wr2aA2jTbGjGDp7oTglK6T/CIuk46Stflnn1LB9ntMU2ANArS0HQN974aL0o9CV59tGf7UaSRBqsGvIDUePxXoPasGrmgdXD80aXC3L8i+IyclW3/tQpaTofROGHdxJTDj26NveLaef5JTWd/L6n5rpckjz1FsJ2ISEAIYqTqZ7rBRq9VvRS7MFqpskGqNczfMJKmM5e18PNQRUBTmlT6pp6CQcy7U+A+pKGGNFwE5ruS5S5FKCR1J9pm5uhmp1QsNmy3vf6HVE7I8ikUPfiWjUieX7XUb+0/+n5kD4SVEGkJsKpXt9GcaF5JRxzv4R/3f/lMdjHcAPGT8whQuACj1pe5fowGvLnWJMfwj2W+Q18ZSvqlogQFxfxUHFVuJKzlNvstRS6A42uY96O5ZvGVcxiSVJ2jjeSp3VDzjmVKRMmH7YCwuV1V1vaIHxUM4jg0fmtXsfdUEB+ImbHJy/wBR59FrGtszc8Hbo485XM1DSI5wfl1W0oV2vbwVV9xa1obTaG5ZygCBfXTnxUGtXNN3HqOMcxz/AHVyjgIyyQN4N16r6xewgtdEzMiBHLooe0sbUbUNOYBECe7S5stjsnaAez2iJFrafREFZ/evZ5re4Lga81j6cYvjydFl85xSfjozuzH06Fem41gY1IByixkTxsp29WMo1nU3CsyACDqdePsg2VTicEzsszSW1GwKjDy/ib/LPkql1FxBiYaAT0kx5SY8U/RjjaL5y3cp55RpqW7PasGWtTdExDi4eBAsov8AYlbDPY+QQ1wPskzYza2pVPSJmMtyOMfutLu3tV0Gm9shonXRsxprAt4KVREt6yb9j0XZ4zu+806xNN7BLIESPxBxu3iIVg99rcvisNsHaAo12tBPYVzAB/A/hHR2nfC2OJq5Gt4kmB38te9dkWmso8+ec8lNvXsb721ga4Ncwn3pIg66dQFJ3Z2c+hQ7Ko4Pu7SSIPC/j5p+KxnZtzPc1o5e8R5EAeqp9o7fohvvl51k6dwWbjBS3eTf1bHWqn/SuSDtTccFxOHfHHI8G3cQJjwUzd3c5tF4q4h7XZbtaBDQeBJdqeQUehtvDFoJaAeIgaq92DVo1GPe2DBjrET4LNU1bspG8tZe4bHLj/JX76bLdijTdRc32A4ESZMwRGUHkrzBZmUqbXENc1jQco4gCeg9VVbb2j2TBVZdh4oOyMVVxPtBuWmOJtJ5DmqSxJtdsylNuEa5dLorqG7NY4v7xUe0t7TOSScxAMgRHcFqcVUBBQ6lcTlnTVRNoYgBjipjBQzg0stlZjd4WEOGKYGFxIseJVdjNqud7tmrFY7FuzG9p0VhQxpc0ZiAOQuUPJimui6p7WqaT4qRh6znG5VMzEM4NJPkplDFkf8ApmO8FIaZpKUKSGqgp7Vj8JSP20eSMpFZNKxEDxoNdTJ0WRG2jzj5KbhdsNFh4nn1KpSE+TT0oDYXdoqf+1hCEdqBG4W1EWlUhKXSh02niiBqzLQ7xQa2JATcU+BYrP4ysealjzgsq+0RzVNjdpSdVXV8QZUZ7pTUSJSCVq6iPqSU6lSc9wa0Ek2AAknuAuVud3N0xTIqVwC/UN1De/mfTvW0IGUpAd0N28sYisL6sYeH8zuvILWRJmLIr2z9appdwW64IEbTum1MODq1rtLET6FGaeqVhHigCINlUtQwNPNvsnutEjoZCBVwLh7pnoY9HaeBHirMPXCCbixSaT7Gm10Y7amCZVnO2IseBBVLsfCCniQCQ6m9rmX6iYd1tx6c1ot6paWGnbNmnkQOB5685ssptMmlTDXsc2qSC0m0iZzdVg/o58GkU7Hhdg949nihWBaDkcJE36OA42sY6pmxsWaWLpn8LvZJ55tPWEba+0MRUoTUYCyQQ7JA6wVVYGqS1jokscDHB2U3HfEJRtjJ8GlunnX3/g3mM2G5wLaYlpMgSA5h1t0WswuFe/DtZiIL4uWyLjj/AKo5dVjNpbz1aLmCiGZSxr7gmc1+f1deh0ah7LO5uU5Q4t5WkhXCcd0kvHZFtNkIRlLp9GefuhRcfbfVPe8fJqN//PYVhEUGHq6XH/kTKqt2N7KuJxIpvZTDCHEZQZECReb+SZvVvRUoYg0qbGFrQ0nMDJJE2INrQl8xWo7vBp8jc7PT84z2XmL2RQfGakwx0APgRBCrcfsylQpOfQcaJ43c4O4BsE+RCqTvxVDMxoMi9w50choDHigbO3kqV67A9reMQT7NjztOt9Unqa3x7j+QvjltdfkNsnZ+Jqghxy0XGXF2h4nK03nrbxV3jNtUsOwMZo0QAIVDtPbFYvNKjMumwjxPIKLsTZdOvm7So41QTLNB3yLu9E88cGPkY3b5FYvPumUHH7cdVECwk/ohYnYZFQszAfwSLO6TwKiYjZ1Wn7wgdCISwgy0BcUXB4eo85abS53ID6hWG72wX4h8Tla2MzjeOQHNxXpWy9jU6DMtNsA+8T7zupPj3LVRMnI80qbExTRejU/2jN/SSkw/s2Mh3I2PkvW+yi8INeiH+8xrujmh3xQ4JiU2jzP72b+0o9TFu5r0k7Awxu6jT8Bl/phRqu72FnI2g3Nxu72R4nU3S9JFeoecmsflPqi0MTC9Lo7u4ZoA7BlubZ+MpuI2JQIMYenofwN/JHpoSmednaB5phxysNpYBgdAptGukj4FQ/ulPkR4qdiNfqNaCFGrV+Spam2eAHn+ii1NprneWbZRbYrE2Wfxta6TEY0lQmU31HZWNLnHgE4xyRKQCo6VfbF3WqVfbqHs6fI++7w4DqVf7v7qNpxUrQ6pqB+Fv5laI30810xhjswcsldszZlLDgim2DxJu497vlp0Vm0fX1xQ4g6+ie0qxHE9E8MCTRGa6yYCCn0XGmlDko70AJk6Jr/VFb9cE17Rf80hETE0GuHtNB0177LEb3jPjWUzpFNveHGSf+S3tvK68+3kk49o09qkGnW0iD+nRc2rf0L9o9H4avut/hnobNmsc11MgZcuWItGkQvPNyaYOJbSN2ntPZOlhrGhJyjyXqOFoQSTqfr5LzPcdw+/Ux1qerD85Sv4nDAaPmq7Pt/IDfxgbjHCLBjLDlC9Rrub2Jcfd7Mnwyry3f7/ADtXuZ/QF6ayrnwgc4CXUQSOF2aKaH9ywvWx+zR+v4PMtwiBjaXUOH/Er0bae7mHrP7SrSzPgCZcLDoD1Xmm5VSMbh5/ijTm0gfFeyVGo0iUq2n7j+KzlC9OLa4PJauxKRx7sNmLaeYECT/CDE8DwnW67b2z20DmpkN1AgNDokiZC7aNaNql2sV2i/g1St7MGQ4OzGMxaRyjiEqVF7uPIa2U0ocvmJD7TsKQytlzwJfN5N47hyUmnsRlEB2IeW1DLjDi3KIgNlpuSbnuCkU8KauLp0XABjfaAF8waJjxiPNWG9Gye2qgZsvszMcZK6UsLJ5ucvBS7E2fXxQqgVB2bCBme3MSTNgZFwIM9VpdmbqNH+YqGtGgIyjxgy7xMI+5DMuGAIiKlQO6w436rRezxWiSRm5NjMNh2saGsaGtGgAAA8EUgpweulUSCnnoE9rLBJ2fqlpulo+u5ADyELDMFzaS4nysPQLqztANSe+OZRWMgQAkIJCBV4oiGQOM6fXegDz/AG6z+805+irJHJXu9VKKvn6x+SzzniVmdi6M+ahOiSTMC55DU+C9Yr7NaB7Nu6PyVBj8E2ZcJ79Vk0kLDwUGy93KlU/3n903jm949w4eMLa7NwVKgMtNsDidSTzJVRhMQ9lmnMOTxmjxs7zKn08eCfaAaSbciStYteDOSfku2PkJkcrBR6Lj+SksI/daEiZYRAE0/H61SGUgCEdU3KUmXvSBkJgcSuzFOLj1RWygAWdNfU5Izz0QpBGhHxQAJ9Q2lY3euj/jKJAsezHWc+mtufmttE/QWV29RH3/AA7gywdSzO1Bl8NEcNDryXPqVmH/AGjt0EsWP9M9GaF5NuIP8ezp2h/4n8162bSvKvs8j76Tw7OofUKL19yH7K0L+zc/wRN/v87W/wBv9AXqOGZ/hWN/6TW/8IXmH2gsIxtS3vBpHUZY+IK9Vwo9hjY0aB6Qp06+5M01z+xT+v4PJNycPmxtETEOLu/KCYXsuVeSbl0v/EWgXDXVD4AEAr1xoVaNfQ/2R8Xlm2P6R41iZdtIxecSPR/6Lbbd2BVrPhpY1jnBxcZzC0QGxfTmNVgqdQ/fpH/uZH/yL2csPNTped37L+J5j6f/ABM/s7YjmVnVqjgXZcjQ0EACZJvqTHgrDG4Fr4zEiOIN4Oo0PJS+ygnVODF2Hk5IuGwjWtaxghrdPj5zfxUoDxTuaVp70CYFjeaf5+SUpDaT0TAG9kmL9/1dFHIDhqkpsgR5otkCBU2+13D1P6D1Rw5DogZUQG1kAcmuTwRCZKEBjd86ftsPMH0WVeBN1tN9mewx3J3xH6LGkFQzrg/pPR8QLLO7RYrrOSNIVVimSVkyl0N2TgM2qsKmBZBGUdxFvJR8DXySOClVq41+aOgSKirV7FwP4OINy3qOnRXOHgiRdZ3bNax7lN3ZxJdRbzEtPhp6EeSuuTfBnYknwXuQGyTIkp1ERr5WuDMRrYTKsBFLRyTXgpiBtPREM8kMmIRAkME554pj3gJzkKL6oAcao+vq6rttYcBvb06Rq1gGhuUZoDXZtCOsyL2Vi1nEqfs9kEHmpnFNYKhNweUZ6lvcaj6eHYwue9sOI9lzXZb+82CZBRt091+we6tUJzuaRkMQzMZcJHvcBK14amFolSquU5PPsN6jEXGtbU+/OTD/AGi7CfUDa9IS5gLXhvvFuoIHGL26qtfvyfu5p5HCtGQmdABBM65vJejPZyhDp4dgdmDW5jqQBJ7yonS9zlF4z2b16uKrULI7tvXODC/ZzsJ7XnEVWloyltMOkEzq6OUC3NegX5prjqnhquqtQjtRz6i+V9jnI8Ro4Wr96Dcjs4qiQAZBz/V17eQlCRTTSq889mmr1b1G3KxgE+U5zExusp4dC1OUG9sarhHNEqFMa7wQAr2ykqU7R9fsitcmuKYCU3yJSOqIVF8cOOiIwnjGs2QIJTbZNd9fQXOfGpCj1axNm+Z/JABmkBNNQcY+SinmZKPTYOATGU29rQcO6CLQR4G/xWGa9ej4zCNcxwgAEEHlBt53C8zqS0lpiQSPIrORvU+MHptsuiqsa2O5PoY21yhYqvKzkaor6uIyiQoz9pSOCZtF6on1YWbYiVj8TKm7JxjqbGAOiZcbAi5/IBZ+o+VcYdstZA/DB11kiy20yzIyufBo6O1jecp6gwp2DxrXWNjyJWbp0ToPz+SHUY4OF/G67HBHOpM2nbN7+5L2gWONZ0TLvA/ogHaLmxBcI6z9ealwZW82rolOa3mVn9m7TzQCZ+P6q2p4kHioaaKTySyE1wS5glAUlAqVEl3z4K0osiOlkzD0wLhSeCklsMFGzOzR1m3JO7cAXQu0t81WSEh7npGkobrX1TRWPL1/RIZIykp7XIIq9PVNZiP5e66AJB802O9CdiCLkJBjLaIAOxmq400L7yeiaazuEeX6piJBYmEqM+u7n8E7PxJPBAw3im1KzRqUCsydSY70IUwLCEgOr1QCHNtwPKDbzH5p5rHhchMxAAaeNj8E2k4ADuiZugYZk3Lj3SnlBaDeB8/ijUgQgQ+mzuCdk6pQ2VxHVMBhZB5zYrIbT3Ya+q554nu4QtWaplEFNpuRdJlJ4MdxTmSuXLBnSRcayyzmNF0q5QwZClXuzXDs2jjc+pSrl0aX+pmF3RNDyJuh08Wb3+vHRcuXccw7t51A6EKNVpErlyQAabSOil0MW8G5nvXLkgLbDbV4TEc7tn5K1wuOaYkxyPDzSLlE4o0jJlvh6k+HrxSVqh5xwSrlgUApn2hc3n4foiOcuXIGwT3xrpzlPpkLlyYhTHNOYwJVyAHPYOnikyhcuQhChiE+Vy5ACUmwbkIzrjguXIGRX05OqPTYBxXLkgImPdBA5xMchKJScOqVcgAgklEYz6KVcgAgHVIYXLkgBkHknBq5cmB//9k=" alt="Vernazza" style="width:100%">
+  <div class="w3-container">
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://ih0.redbubble.net/image.210333790.4535/flat,800x800,070,f.u1.jpg" alt="Cinque Terre" style="width:100%">
+  <div class="w3-container">
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="https://thumbs.dreamstime.com/b/determination-word-metal-type-mixed-vintage-printing-blocks-over-grunge-wood-47381014.jpg" alt="Monterosso" style="width:100%">
+  <div class="w3-container">
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>How to take <b>Initiatives</b> for yourselves?</h2>
+    <p></p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">School</p>
+        </li>
+          <li class="w3-padding-16">Best suited for-><br>Age:<b>12-17 years</b></li>
+          <li class="w3-padding-16"><b>Tution, Dance, Music classes</b> etc.</li>
+          <li class="w3-padding-16"><b>Design</b></li>
+        <li class="w3-padding-16"><b>Documentation</b></li>
+        
+        <li class="w3-theme-l5 w3-padding-24">
+          <a href="form.html" target="_blank"><button class="w3-button w3-teal w3-padding-large set1"><i class="fa fa-check" ></i> Sign Up</button></a>
+            <a href="loginpage.html" target="_blank"><button class="w3-button w3-teal w3-padding-large set1"><i class="fa fa-check" ></i> Login</button></a>
+        </li>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">College</p>
+        </li>
+        <li class="w3-padding-16">Best suited for-><br>Age:<b>18-25 years</b></li>
+        <li class="w3-padding-16"><b>Technical</b></li>
+        <li class="w3-padding-16"><b>Documentation</b></li>
+          <li class="w3-padding-16"><b>Internships</b></li>
+        
+        <li class="w3-theme-l5 w3-padding-24">
+         <a href="form.html" target="_blank"><button class="w3-button w3-teal w3-padding-large set1"><i class="fa fa-check" ></i> Sign Up</button></a>
+            <a href="loginpage.html" target="_blank"><button class="w3-button w3-teal w3-padding-large set1"><i class="fa fa-check" ></i> Login</button></a>
+        </li>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Start-ups</p>
+        </li>
+        <li class="w3-padding-16">Best suited for-><br>Age:<b>20+ years</b></li>
+        <li class="w3-padding-16"><b>Pitch your Idea</b> </li>
+        <li class="w3-padding-16"><b>Get Investments</b> </li>
+        <li class="w3-padding-16"><b>Build your Empire</b></li>
+        
+        <li class="w3-theme-l5 w3-padding-24">
+          <a href="form.html" target="_blank"><button class="w3-button w3-teal w3-padding-large set1"><i class="fa fa-check" ></i> Sign Up</button></a>
+            <a href="loginpage.html" target="_blank"><button class="w3-button w3-teal w3-padding-large set1"><i class="fa fa-check" ></i> Login</button></a>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <h3>Address</h3>
+      
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> VIT Vellore <br> F-Block</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i> 9651055760</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> winit@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Work for yourself! Inspire Others!</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
